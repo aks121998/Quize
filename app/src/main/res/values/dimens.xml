@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="paddingTop">5dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="marginTop">5dp</dimen>
+    <dimen name="quesSize">20sp</dimen>
+    <dimen name="radioG2">50dp</dimen>
+    <dimen name="editWidth">150dp</dimen>
+</resources>

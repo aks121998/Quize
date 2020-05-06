@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quize</string>
+    <string name="ques8">Q8. A folder in windows computer can\'t be made with the name</string>
+    <string name="ques7">Q7. Who is Iron man?</string>
+    <string name="ques6">Q6. What is the space complexity of Depth-first search?</string>
+    <string name="ques5">Q.5 Which search is implemented with an empty first-in-first-out queue?</string>
+    <string name="ques4_d">Encapsulation</string>
+    <string name="ques4_c">Data may/may not be declared using object</string>
+    <string name="ques4_b">Inheritance</string>
+    <string name="ques4_a">Polymorphism</string>
+    <string name="ques4">Q4 Which are the basic features of OOP?</string>
+    <string name="ques3_d">Python</string>
+    <string name="ques3_c">C</string>
+    <string name="ques3_b">C++</string>
+    <string name="ques3_a">Java</string>
+    <string name="ques3">Q3. Which programming languages are object oriented programming?</string>
+    <string name="ques2_c">Pradeep Parajuli</string>
+    <string name="ques2_b">John McCarthy</string>
+    <string name="ques2_a">Alan Turning</string>
+    <string name="ques2">Q2. Who is the “father” of artificial intelligence?</string>
+    <string name="ques1_c">Putting your intelligence into Computer</string>
+    <string name="ques1_b">Making a Machine intelligent</string>
+    <string name="ques1_a">Playing a Game</string>
+    <string name="ques1">Q1. What is Artificial intelligence?</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="answer"> </string>
+</resources>

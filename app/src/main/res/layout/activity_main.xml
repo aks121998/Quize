@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Scroll"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_animation">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/ques1"
+                android:textColor="@color/quesText"
+                android:textSize="@dimen/quesSize"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myRadioGroup"
+                android:layout_margin="@dimen/margin">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/optionA1"
+                    android:text="@string/ques1_a" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/optionA2"
+                    android:text="@string/ques1_b" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/optionA3"
+                    android:text="@string/ques1_c" />
+            </RadioGroup>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/quesText"
+                android:text="@string/ques2"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/myRadioGroup2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:text="@string/ques2_a"
+                    android:id="@+id/optionB1"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:text="@string/ques2_b"
+                    android:id="@+id/optionB2"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques2_c"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/optionB3"/>
+            </RadioGroup>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ques3"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textColor="@color/quesText"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox_3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques3_a"
+                android:textSize="@dimen/text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox_3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques3_b"
+                android:textSize="@dimen/text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox_3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques3_c"
+                android:textSize="@dimen/text_size" />
+            <CheckBox
+                android:id="@+id/checkBox_3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/ques3_d"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ques4"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textColor="@color/quesText"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox_4a"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques4_a"
+                android:textSize="@dimen/text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox_4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques4_b"
+                android:textSize="@dimen/text_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox_4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques4_c"
+                android:textSize="@dimen/text_size" />
+            <CheckBox
+                android:id="@+id/checkBox_4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingTop"
+                android:layout_marginBottom="@dimen/margin"
+                android:paddingRight="@dimen/paddingTop"
+                android:text="@string/ques4_d"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textColor="@color/quesText"
+                android:textStyle="bold"
+                android:text="@string/ques5"/>
+            <EditText
+                android:layout_width="@dimen/editWidth"
+                android:id="@+id/edit5"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="@dimen/margin"
+                android:textColor="@color/editTextColor"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ques6"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textColor="@color/quesText"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="@dimen/editWidth"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin"
+                android:textColor="@color/editTextColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:id="@+id/edit6"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:text="@string/ques7"
+                android:textColor="@color/quesText"
+                android:textSize="@dimen/quesSize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img7a"
+                    android:layout_marginStart="@dimen/margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thanos" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/img7b"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/captain" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin"
+                    android:src="@drawable/ironman"
+                    android:id="@+id/img7c"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/spider"
+                    android:id="@+id/img7d"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical"
+            android:background="@color/color">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ques8"
+                android:paddingTop="@dimen/margin"
+                android:paddingBottom="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:paddingEnd="@dimen/marginTop"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/quesSize"
+                android:textColor="@color/quesText"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="@dimen/editWidth"
+                android:id="@+id/edit8"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin"
+                android:textColor="@color/editTextColor"
+                android:textSize="@dimen/text_size"
+                android:layout_marginBottom="@dimen/margin"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer"
+                android:textStyle="italic"
+                android:text="@string/answer"
+                android:textColor="@color/quesText"
+                android:background="@color/editTextColor"
+                android:textSize="@dimen/text_size"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/editTextColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/submit"
+                android:id="@+id/submitB"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/marginTop"
+                android:background="@color/btnColor"
+                android:textColor="@color/quesText"
+                android:onClick="submitQuiz"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="resetQuiz"
+                android:background="@color/btnColor"
+                android:textColor="@color/quesText"
+                android:text="@string/reset"
+                android:layout_marginStart="@dimen/marginTop"
+                android:textStyle="bold"
+                android:id="@+id/resetB"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
